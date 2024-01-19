@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ====== Favicon ====== -->
+    <link
+      rel="shortcut icon"
+      href="images/342721709_748365703599878_6760700892986616912_n.jpg"
+      type="image/png"
+    />
+    <!-- ====== Boxicons ====== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ====== Swiper CSS ====== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- ====== Custom CSS ====== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>KoViMerchShop</title>
+  </head>
+  <body>
+    <!-- ====== Header ====== -->
+    <header class="header">
+      <!-- ====== Navigation ====== -->
+      <nav class="navbar">
+        <div class="row container d-flex">
+          <div class="logo">
+            <img src="./images/342721709_748365703599878_6760700892986616912_n.jpg" style="width: 20%;" alt="" />
+          </div>
+
+          <div class="nav-list d-flex">
+            <a href="">Trang Chủ</a>
+            <a href="">Mua Sắm</a>
+            <a href="">Về KoViMerchShop</a>
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+            <a class="user-link">Login</a>
+          </div>
+
+          <div class="icons d-flex">
+            <div class="icon d-flex"><i class="bx bx-search"></i></div>
+            <div class="icon user-icon d-flex">
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="icon d-flex">
+              <i class="bx bx-bell"></i>
+              <span></span>
+            </div>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-right"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ====== Hero Area ====== -->
+      <div class="hero">
+        <div class="row container d-flex">
+          <div class="col">
+            <span class="subtitle">Mua Sắm Ngay Tại Hội Trường</span>
+            <h1>Al<span class="i"></span>bum</h1>
+            <p>ĐỂ ĐƯỢC GIẢM GIÁ, THỜI GIAN CÓ HẠN</p>
+
+            <button class="btn">CLICK VÀO MUA NGAY!</button>
+          </div>
+          <img src="./images/woman-in-cart.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- ====== Collection ====== -->
+    <section class="section collection">
+      <div class="title">
+        <span>GỢI Ý</span>
+        <h2>Merch Có Thể Dành Cho Bạn</h2>
+      </div>
+      <div class="filters d-flex">
+        <div data-filter="Jewellery">Album</div>
+        <div data-filter="Accessories">Light Stick</div>
+        <div data-filter="Dresses">Card</div>
+      </div>
+
+      <div class="products container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="products">
+            <div class="swiper-slide">
+              <!-- <div class="product">
+                <div class="top d-flex">
+                  <img src="./images/product-1.png" alt="" />
+                  <div class="icon d-flex">
+                    <i class="bx bxs-heart"></i>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
+                  <div class="d-flex">
+                    <div class="price">$150</div>
+                    <div class="rating">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <div class="custom-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== New Arrival ====== -->
+    <section class="section new-arrival">
+      <div class="title">
+        <span>NEW ARRIVAL</span>
+        <h2>Latest Collection</h2>
+      </div>
+
+      <div class="row container">
+        <div class="col col-1">
+          <img src="./images/poster-1.png" alt="" />
+          <h3>
+            2021 Trends <br />
+            Women’s Smart Skirt
+          </h3>
+        </div>
+        <div class="col col-2">
+          <img src="./images/poster-2.png" alt="" />
+          <h3>
+            2021 Trends <br />
+            Women’s Smart Skirt
+          </h3>
+        </div>
+        <div class="col col-3">
+          <img src="./images/poster-3.png" alt="" />
+          <h3>
+            2021 Trends <br />
+            Women’s Smart Shirt <br />
+            <span>Discover More:</span>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Categories ====== -->
+    <section class="section categories">
+      <div class="title">
+        <span>HÀNG MỚI CẬP NHẬT</span>
+        <h2>2023 Latest Merchandise</h2>
+      </div>
+
+      <div class="products container">
+        <!-- <div class="product">
+          <div class="top d-flex">
+            <img src="./images/product-1.png" alt="" />
+            <div class="icon d-flex">
+              <i class="bx bxs-heart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="d-flex">
+              <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
+              <a href="" class="btn cart-btn">Add to Cart</a>
+            </div>
+            <div class="d-flex">
+              <div class="price">$150</div>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="button d-flex">
+        <a class="btn loadmore">Load More</a>
+      </div>
+    </section>
+
+    <!-- ====== Statistics ====== -->
+    <section class="section statistics">
+      <div class="title">
+        <span>STATS</span>
+        <h2>Our Statistics</h2>
+      </div>
+
+      <div class="row container">
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-check-square"></i>
+          </div>
+          <h3>Easy Order System</h3>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>On Time Delievery</h3>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-dollar-circle"></i>
+          </div>
+          <h3>Money Back Gaurantee</h3>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>24/7 Customer Support</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Blogs ====== -->
+    <section class="section blog">
+      <div class="title">
+        <span>BLOGS</span>
+        <h2>Cập Nhật Thông Tin Mới Nhất</h2>
+      </div>
+
+      <div class="row container">
+        <div class="col">
+          <div class="top">
+            <img src="./images/taeyang-jimin-7758.jpeg" alt="" />
+          </div>
+          <div class="bottom">
+            <h3>Trendy</h3>
+            <h4>
+              Jimin (BTS) - Taeyang (BIGBANG): Từ mối quan hệ fan với thần tượng đến màn kết hợp mang tính lịch sử của Kpop
+            </h4>
+            <span>19 Tháng 1 2023</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top">
+            <img src="./images/SNSD--Music-Bankedrf.jpg" alt="" />
+          </div>
+          <div class="bottom">
+            <h3>Trendy</h3>
+            <h4>
+              Tái xuất sau 5 năm vắng bóng, SNSD vẫn thiết lập hàng loạt kỷ lục khủng, không hổ danh "Nữ hoàng Kpop"
+            </h4>
+            <span>19 Tháng 1 2023</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top">
+            <img src="./images/0417f097512a1ec840fc584899529a7a_1490247531.jpg" alt="" />
+          </div>
+          <div class="bottom">
+            <h3>Trendy</h3>
+            <h4>
+              Vũ Cát Tường: 'Bạn gái tôi là người hiểu chuyện'
+            </h4>
+            <span>19 Tháng 1 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <img src="./images/342721709_748365703599878_6760700892986616912_n.jpg" style="width: 50%;" alt="logo" />
+          </div>
+          <p>
+            Tiệm chuyên bán <br />
+            Merchandise
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
+          </div>
+          <p class="color">
+            Copyrights 2023 <br />
+            @wrefree549
+          </p>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Product</h4>
+            <a href="">Download</a>
+            <a href="">Pricing</a>
+            <a href="">Locations</a>
+            <a href="">Server</a>
+            <a href="">Countries</a>
+            <a href="">Blog</a>
+          </div>
+          <div>
+            <h4>Category</h4>
+            <a href="">Album</a>
+            <a href="">Card</a>
+            <a href="">Light Stick</a>
+            <a href="">Best Seller</a>
+          </div>
+          <div>
+            <h4>My Account</h4>
+            <a href="">My Account</a>
+            <a href="">Discount</a>
+            <a href="">Returns</a>
+            <a href="">Order History</a>
+            <a href="">Order Tracking</a>
+          </div>
+          <div>
+            <h4>Contact Us</h4>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-map"></i></div>
+              <span>Đại Học UEH</span>
+            </div>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-envelope"></i></div>
+              <span>KoViMerchShop@sitename.com</span>
+            </div>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-phone"></i></div>
+              <span>+456 789 789 001</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====== Login and Signup Form ====== -->
+    <div class="user-form">
+      <div class="close-form d-flex"><i class="bx bx-x"></i></div>
+      <div class="form-wrapper container">
+        <div class="user login">
+          <div class="img-box">
+            <img src="./images/login.svg" alt="" />
+          </div>
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Not a member?
+                <span data-id="#ff0066">Register now</span>
+              </p>
+            </div>
+            <form action="">
+              <div class="form-control">
+                <h2>Hello Again!</h2>
+                <p>Welcome back you've been missed.</p>
+                <input type="text" placeholder="Enter Username" />
+                <div>
+                  <input type="password" placeholder="Password" />
+                  <div class="icon form-icon">
+                    <!-- <img src="./images/eye.svg" alt="" /> -->
+                  </div>
+                </div>
+                <span>Recovery Password</span>
+                <input type="Submit" value="Login" />
+              </div>
+              <div class="form-control">
+                <p>Or continue with</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Register -->
+        <div class="user signup">
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Already a member?
+                <span data-id="#1a1aff">Login now</span>
+              </p>
+            </div>
+            <form action="">
+              <div class="form-control">
+                <h2>Welcome Codevo!</h2>
+                <p>It's good to have you.</p>
+                <input type="email" placeholder="Enter Email" />
+                <div>
+                  <input type="password" placeholder="Password" />
+                  <div class="icon form-icon">
+                    <img src="./images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <div>
+                  <input type="password" placeholder="Confirm Password" />
+                  <div class="icon form-icon">
+                    <img src="./images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <input type="Submit" value="Register" />
+              </div>
+              <div class="form-control">
+                <p>Or continue with</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="img-box">
+            <img src="./images/trial.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ====== SwiperJs ====== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ====== Custom Script ====== -->
+    <script src="./js/product.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

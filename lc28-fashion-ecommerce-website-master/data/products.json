@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "BLACKPINK - BORN PINK MD 'PHOTO CARD + TOP",
+      "price": "500.000 VNĐ",
+      "url": "./images/20230418_VjMhjEA7Fr.jpeg",
+      "category": "Dresses"
+    },
+    {
+      "id": 2,
+      "title": "Stray Kids - Green Project B",
+      "price": "590.000 VNĐ",
+      "url": "./images/20221012_0XTeBTAm8xzb8R3hsNHd5DXw.jpg",
+      "category": "Dresses"
+    },
+    {
+      "id": 3,
+      "title": "Album LISA (BLACKPINK) - LALISA",
+      "price": "430.000 VND",
+      "url": "./images/Lisa.jpg",
+      "category": "Jewellery"
+    },
+    {
+      "id": 4,
+      "title": "Album TWICE - READY TO BE",
+      "price": "370.000 VNĐ",
+      "url": "./images/Twice.jpg",
+      "category": "Jewellery"
+    },
+    {
+      "id": 5,
+      "title": "SM ARTIST SSG PHOTOPACK - aespa",
+      "price": "300.000 VNĐ",
+      "url": "./images/a9ae90e8677599ccc1478c8125c458db.jpg",
+      "category": "Dresses"
+    },
+    {
+      "id": 6,
+      "title": "BLACKPINK - OFFICIAL LIGHT STICK VER.2",
+      "price": "950.000 VNĐ",
+      "url": "./images/4c9062a9a7d5e42e40057f1875b1bd4b.jpg",
+      "category": "Accessories"
+    },
+    {
+      "id": 7,
+      "title": "VŨ CÁT TƯỜNG - EP Một Triệu Năm Ánh Sáng - ĐĨA CD",
+      "price": "370.000 VNĐ",
+      "url": "./images/Vũ_Cát_Tường_-_Một_triệu_năm_ánh_sáng_(album).jpg",
+      "category": "Footwear"
+    },
+    {
+      "id": 8,
+      "title": "HOÀNG DŨNG - EP 'Yên' - ĐĨA CD",
+      "price": "299.000 VNĐ",
+      "url": "./images/hoang-dung-ra-mat-ep-yen-20220821-dnplus-1.jpg",
+      "category": "Footwear"
+    },
+    {
+      "id": 9,
+      "title": "HỨA KIM TUYỀN - COLOURS (THE FIRST ALBUM) - ĐĨA CD",
+      "price": "200.000 VNĐ",
+      "url": "./images/img_1052_55539211bed544d1ad2aafb3a0915d6f.jpg",
+      "category": "Footwear"
+    },
+    {
+      "id": 16,
+      "title": "OFFICIAL LIGHTSTICK AESPA",
+      "price": "850.000 VNĐ",
+      "url": "./images/UJIiEj.png",
+      "category": "Accessories"
+    }
+  ]
+}
